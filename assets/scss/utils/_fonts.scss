@@ -1,0 +1,40 @@
+
+$tw-light:300;
+$tw-regular: 400;
+$tw-semi-bold: 600;
+$tw-bold: 700;
+$tw-extra-bold:800;
+$tw-black: 900;
+h1 {
+    font-size: 2rem;
+    font-weight: $tw-black;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: $tw-bold;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: $tw-bold;
+}
+
+h4 {
+    font-size: 1.125rem;
+    font-weight: $tw-bold;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: $tw-bold;
+}
+
+p {
+    font-size: 0.875rem;
+}
+
+.text-title {
+    font-size: 1.25rem;
+    font-weight: $tw-bold;
+}

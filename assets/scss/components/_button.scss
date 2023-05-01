@@ -1,0 +1,8 @@
+.ava-btn {
+    border: 0;
+    @include rounded;
+    padding: 0.5rem 1rem;
+    font-weight: $tw-semi-bold;
+    color: $white;
+    line-height: 1;
+}
