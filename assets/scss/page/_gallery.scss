@@ -1,0 +1,142 @@
+body{
+   font-family: 'Roboto', sans-serif !important;
+   p{
+    font-size:15px;
+    text-align: center;
+   
+}
+}
+.first {
+    h1{
+        margin-top: 50px;
+        text-align: center;
+        font-size:40px;
+        font-weight:300;
+    }
+  .col-lg-4{
+    margin-bottom:20px !important;
+  }
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+ .overlay-content{
+     display: none;
+     left:40%;
+     transform: translateY(100px);
+     position: absolute;
+     text-align: center;
+     color:#fff;
+     padding:20px;
+     transition:2s;
+     z-index: 99;
+    h3{
+        font-size:20px;
+        font-weight: 300;
+    }
+   p::after{
+    content: "";
+    position: absolute;
+    left:37%;
+    width:60px;
+    display: block;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+    
+   }
+   }     
+   .figure{
+     background-color: black;
+     position:relative;
+     width:100%;
+     height:300px;
+     overflow: hidden;
+     img{
+         transition:0.5s;
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+     }
+   }
+   .figure:hover{
+     img{
+         transform: scale(1.2);
+         opacity: 0.4;
+     }
+     .overlay-content{
+         display: block;
+         // transform: translateY(0px);
+         position: absolute;
+         top: 35%;
+         left:25%;
+         h1{
+             font-size: 3rem !important;
+         }
+     }
+   }
+
+ }
+
+
+ // gallery iinside page scss//
+ .first1{
+    background-color: #6e2e8f;
+    color: white !important;
+    
+    padding:30px 80px;
+    h1{ 
+        
+        text-align: center;
+        font-size:40px;
+        font-weight:500;
+    }
+    p{
+         
+        margin-bottom:50px;
+        opacity: 0.5;
+    }
+    .row{
+        .col-lg-3{
+            margin-bottom:20px;
+            height:300px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover; 
+            }
+        }
+    }
+    .svg{
+        p{
+            margin:0 !important;
+            opacity:1;
+        }
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap:10px;
+        .facebook{
+            color:#2f86f8;
+        }
+        .instagram{
+            color:#da7f9c;
+        }
+        .svgsame{
+            background-color: white;
+            border-radius: 50%;
+            width:30px;
+            height:30px;
+            padding:5px;
+        }
+    }
+ }
+ 
+ 
+ //Responsive//
+ @media screen and (max-width:600px)
+ {
+    .first1{
+        padding:30px 30px !important;
+    }
+ }
