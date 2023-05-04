@@ -1,3 +1,4 @@
+@import '../utils/color';
 body{
    font-family: 'Roboto', sans-serif !important;
    p{
@@ -78,11 +79,55 @@ body{
 
  }
 
+ //footer//
+ .footer{
+    .First{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap:20px;
+        color: $white;
+        background-color: $secondary-color;
+        padding:15px;
+        input{
+            padding:7px;
+            border: none;
+            border-radius: 5px;
+            width:20%;
+            opacity: 0.8    ;
+            &::placeholder{
+                color:$black;
+            }
+        }
+    }
+    .second{
+        footer{
+            .svg{
+                display: flex;
+                justify-content:center;
+                align-items: center;
+                column-gap: 20px;
+                .svgsame{
+                    color: $white;
+                }
+            }
+            ul{
+                li{
+                    a{
+                    color: $white !important; 
+                    }  
+                }
+            }
+        }
+        
+    }
+ }
+
 
  // gallery iinside page scss//
  .first1{
     background-color: #6e2e8f;
-    color: white !important;
+    color: $white !important;
     
     padding:30px 80px;
     h1{ 
@@ -122,7 +167,7 @@ body{
             color:#da7f9c;
         }
         .svgsame{
-            background-color: white;
+            background-color: $white;
             border-radius: 50%;
             width:30px;
             height:30px;
